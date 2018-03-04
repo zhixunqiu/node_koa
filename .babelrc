@@ -1,0 +1,19 @@
+{
+    "presets": [
+        "es2015",
+        "stage-0",
+        "stage-1",
+        "react",
+    ],
+    "plugins": [
+        "transform-runtime",            // 代码转换
+        "transform-async-to-generator", //可以使用async/await
+        "transform-decorators-legacy"   // ES7 decorator
+    ],
+    "env": {
+        "development": {
+        },
+        "production": {
+        }
+    }
+}
